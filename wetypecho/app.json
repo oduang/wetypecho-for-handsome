@@ -1,0 +1,50 @@
+{
+    "debug": true,
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#f5f5f5",
+        "navigationBarTitleText": "O.D.blog",
+        "backgroundColor": "#ffffff",
+        "backgroundTextStyle": "dark"
+    },
+    "pages": [
+        "page/index/index",
+        "page/list/list",
+        "page/detail/detail",
+        "page/cat/cat",
+        "page/auth/auth",
+        "page/share/share",
+        "page/about/about"
+    ],
+    "tabBar": {
+        "color": "#7F8389",
+        "selectedColor": "#a70101",
+        "borderStyle": "black",
+        "list": [
+            {
+                "selectedIconPath": "resources/homeon.png",
+                "pagePath": "page/index/index",
+                "iconPath": "resources/home.png",
+                "text": "主页"
+            },
+            {
+                "selectedIconPath": "resources/rankon.png",
+                "pagePath": "page/cat/cat",
+                "iconPath": "resources/rank.png",
+                "text": "排行"
+            },
+            {
+                "selectedIconPath": "resources/abouton.png",
+                "pagePath": "page/about/about",
+                "iconPath": "resources/about.png",
+                "text": "关于"
+            }
+        ],
+        "backgroundColor": "#EFEFEF"
+    },
+    "networkTimeout": {
+        "request": 5000,
+        "downloadFile": 60000
+    },
+    "sitemapLocation": "sitemap.json"
+}

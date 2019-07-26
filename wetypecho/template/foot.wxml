@@ -1,0 +1,8 @@
+<template name="foot">
+    <view class="footerview">  
+    <text >@2019 oduang</text>
+    </view>
+    <view class="footerviewwebsite">  
+    <text style>oduang.com</text>
+    </view>
+</template>
