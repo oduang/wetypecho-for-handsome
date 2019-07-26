@@ -1,4 +1,4 @@
-# weytpecho-for-handsome
+# wetypecho-for-handsome
 基于handsome主题的wetypecho修改版
 
 # 修改内容
