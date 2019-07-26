@@ -2,6 +2,11 @@
 
 - [WeTypecho][1]作为小程序版typecho十分有名，但苦于handsome主题与其不兼容（图片加载不出来）。在网上得到[xiaoningboke][2]大佬的启发后，本人进行进一步修改，最终得到此版本在此向各位大佬致谢。
 
+ **说明**
+ - **小程序内web-view组件需要业务域名，因此暂不支持直接点开链接**
+ - **暂不支持小程序内点开图片**
+
+
 ## 项目地址
 
  - [https://github.com/oduang/wetypecho-for-handsome/][3]
