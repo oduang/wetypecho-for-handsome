@@ -34,25 +34,25 @@
 
  - **自定义修改（修改为自己的地址,前面数字为行数）**
  
- **1. page/index/index.js**
+ 1.  **page/index/index.js**
      ```
      42: datas[i].image = "../../resources/logo.jpg"
      94：datas[i].image = "../../resources/logo.jpg"
      ```
- **2. page/cat/cat.js**
+ 2.  **page/cat/cat.js**
     ```
     108： datas[i].image = "../../resources/logo.jpg"
     ```
-** 3. page/about/about.js(貌似不支持本地加载)**
+ 3.  **page/about/about.js(貌似不支持本地加载)**
     ```
     176: item.authorImg = 'https://oduang.com/logo.jpg';
     ```
- **4. page/detail/detail.js**
+ 4.  **page/detail/detail.js**
     ```
     117： datas[i].image = "../../resources/logo.jpg"`
     197： item.authorImg = 'https://oduang.com/logo.jpg';
     ```
- **5. page/list/list.js**
+ 5.  **page/list/list.js**
     ```
     44: datas[i].image = "../../resources/logo.jpg"
     ```
