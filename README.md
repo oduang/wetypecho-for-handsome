@@ -47,7 +47,7 @@
     ```
     176: item.authorImg = 'https://oduang.com/logo.jpg';
     ```
- 4. **page/detail/detail.js**
+ 4. **page/detail/detail.js(貌似不支持本地加载)**
     ```
     117： datas[i].image = "../../resources/logo.jpg"`
     197： item.authorImg = 'https://oduang.com/logo.jpg';
